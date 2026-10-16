@@ -1,0 +1,14 @@
+@baseUrl = http://localhost:5000
+
+POST {{baseUrl}}/api/entries
+Content-Type: application/json
+
+{
+  "name": "Jane Doe",
+  "email": "jane@example.com",
+  "message": "Hello from the API"
+}
+
+###
+
+GET {{baseUrl}}/api/entries
