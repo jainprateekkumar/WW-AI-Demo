@@ -1,0 +1,7 @@
+{
+  "approvedPhases": [
+    "inception",
+    "design"
+  ],
+  "workflowType": "simple"
+}
